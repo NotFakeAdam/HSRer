@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ApplicationIcon>StarRail.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="HSRer.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="StarRail.ico" />
+  </ItemGroup>
+
+</Project>
