@@ -50,3 +50,5 @@ Rust/target/
 x64/
 
 ASM/
+
+bin/
