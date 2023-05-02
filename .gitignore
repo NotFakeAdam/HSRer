@@ -52,3 +52,27 @@ x64/
 ASM/
 
 bin/
+
+Unreal/SourceArt/**/*.png
+Unreal/SourceArt/**/*.tga
+
+Unreal/Binaries/*
+Unreal/Plugins/*/Binaries/*
+
+Unreal/Build/*
+
+!Unreal/Build/*/
+Unreal/Build/*/**
+Unreal/!Unreal/Build/*/PakBlacklist*.txt
+
+!Unreal/Build/**/*.ico
+
+Unreal/*_BuiltData.uasset
+
+Unreal/Saved/*
+
+Unreal/Intermediate/*
+Unreal/Plugins/*/Intermediate/*
+
+Unreal/DerivedDataCache/*
+Unreal/HSRer.sln
