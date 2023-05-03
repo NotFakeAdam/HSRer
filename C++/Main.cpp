@@ -53,5 +53,4 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
     {
         MessageBox(NULL, (LPCWSTR)L"No stars to rail...", WindowTitle, 0);
     }
-    GamePIDS.clear();
 }
