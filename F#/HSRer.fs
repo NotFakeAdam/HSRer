@@ -7,9 +7,9 @@ if (ProcessesByName.Length > 0) then
     for gameprocess in ProcessesByName do
         gameprocess.Kill()
 
-    printfn "Railed all the stars."
+    printfn "Derailed all the stars."
 
 else
-    printfn "No stars to rail..."
+    printfn "No stars to derail..."
 
 System.Console.ReadKey(false)
