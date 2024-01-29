@@ -6,7 +6,7 @@ internal class HSRer
     {
         Console.Title = "HSRer";
 
-        Console.WriteLine("Press anything to rail stars...");
+        Console.WriteLine("Press anything to derail stars...");
         Console.ReadKey(true);
 
         var ProcessesByName = Process.GetProcessesByName("StarRail");
@@ -16,10 +16,10 @@ internal class HSRer
                 if (Process != null)
                     Process.Kill();
 
-            Console.WriteLine("Railed all the stars.");
+            Console.WriteLine("Derailed all the stars.");
         }
         else
-            Console.WriteLine("No stars to rail...");
+            Console.WriteLine("No stars to derail...");
 
         Console.ReadKey(true);
     }
