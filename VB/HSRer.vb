@@ -1,7 +1,7 @@
 Module HSRer
     Sub Main(args As String())
 
-        Console.WriteLine("Press anything to rail stars...")
+        Console.WriteLine("Press anything to derail stars...")
         Console.ReadKey(False)
 
         Dim Processes = Process.GetProcessesByName("StarRail")
@@ -11,9 +11,9 @@ Module HSRer
                 GameProcess.Kill()
             Next
 
-            Console.WriteLine("Railed all the stars.")
+            Console.WriteLine("Derailed all the stars.")
         Else
-            Console.WriteLine("No stars to rail...")
+            Console.WriteLine("No stars to derail...")
         End If
 
         Console.ReadKey(False)
