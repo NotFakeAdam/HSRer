@@ -33,7 +33,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
 {
     auto WindowTitle = (LPCWSTR)L"Star Railer";
 
-    MessageBox(NULL, (LPCWSTR)L"Press Ok to rail stars", WindowTitle, 0);
+    MessageBox(NULL, (LPCWSTR)L"Press Ok to derail stars", WindowTitle, 0);
 
     auto GamePIDS = FindProcesses(L"StarRail.exe");
     if (GamePIDS.size() != 0)
@@ -47,10 +47,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
                 CloseHandle(Process);
             }
         }
-        MessageBox(NULL, (LPCWSTR)L"Railed all the stars.", WindowTitle, 0);
+        MessageBox(NULL, (LPCWSTR)L"Derailed all the stars.", WindowTitle, 0);
     }
     else
     {
-        MessageBox(NULL, (LPCWSTR)L"No stars to rail...", WindowTitle, 0);
+        MessageBox(NULL, (LPCWSTR)L"No stars to derail...", WindowTitle, 0);
     }
 }
