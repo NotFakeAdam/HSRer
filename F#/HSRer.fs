@@ -1,4 +1,4 @@
-﻿printfn "Press anything to rail stars..."
+﻿printfn "Press anything to derail stars..."
 let Key = System.Console.ReadKey(false)
 
 let ProcessesByName = System.Diagnostics.Process.GetProcessesByName("StarRail");
