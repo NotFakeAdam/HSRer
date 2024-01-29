@@ -31,7 +31,7 @@ std::set<int> FindProcesses(const wchar_t* ProcessName)
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPWSTR lpCmdLine, _In_ int nCmdShow)
 {
-    auto WindowTitle = (LPCWSTR)L"Star Railer";
+    auto WindowTitle = (LPCWSTR)L"Star Derailer";
 
     MessageBox(NULL, (LPCWSTR)L"Press Ok to derail stars", WindowTitle, 0);
 
